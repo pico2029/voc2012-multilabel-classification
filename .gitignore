@@ -1,0 +1,35 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+
+# Datasets and downloads
+data/
+data_local/
+VOCdevkit/
+VOC2012/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.part
+
+# Model artifacts and training logs
+models/
+checkpoints/
+logs/
+*.keras
+*.h5
+*.hdf5
+*.ckpt*
+*.weights.*
+
+# Local settings and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
